@@ -1,3 +1,8 @@
+/**
+ * Processes conversation data to extract relevant information.
+ * @param {object} conversation - Conversation data to be processed.
+ * @returns {Array} - Processed messages array.
+ */
 export function processConversation(conversation) {
     try {
         const processedMessages = [];
@@ -29,7 +34,14 @@ export function processConversation(conversation) {
     }
   }
 
+
+/**
+ * Formats conversation data into a specific structure.
+ * @param {object} conversationData - Conversation data to be formatted.
+ * @returns {Array} - Formatted conversation array.
+ */
 export function formatConversation(conversationData) {
+  try {
     const formattedConversation = conversationData?.conversationsList?.map(conversation => {
         return {
             user_reply: conversation?.conversation?.user_query,
@@ -39,4 +51,9 @@ export function formatConversation(conversationData) {
     });
 
     return formattedConversation;
+    
+  } catch (error) {
+    console.error("error while formatting conversation",error);
+    return []
+  }
 }

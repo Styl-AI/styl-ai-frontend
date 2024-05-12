@@ -26,7 +26,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <ToastContainer />
-      {/* <CssBaseline /> */}
+      <CssBaseline />
       {routing}
 
     </ThemeProvider>

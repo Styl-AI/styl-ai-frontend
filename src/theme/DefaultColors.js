@@ -1,6 +1,4 @@
 import { createTheme } from "@mui/material/styles";
-import typography from "./Typography";
-import { shadows } from "./Shadows";
 
 const baselightTheme = createTheme({
   direction: 'ltr',
@@ -64,8 +62,6 @@ const baselightTheme = createTheme({
     },
     divider: '#e5eaef',
   },
-  typography,
-  shadows
 },
   
 );
