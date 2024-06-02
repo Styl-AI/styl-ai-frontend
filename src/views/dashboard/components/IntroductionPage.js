@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Box } from '@mui/material';
 import PageContainer from 'src/components/container/PageContainer';
 import IntroCard from 'src/components/shared/IntroCard';
+import { INTRO_BULLET_POINTS, INTRO_HEADING } from 'src/constants/text.constant';
 
 const IntroductionPage = () => {
   return (
@@ -9,14 +10,16 @@ const IntroductionPage = () => {
       <IntroCard>
         <Typography>
           <Typography variant="h5" component="div" style={{ fontWeight: 'bold' }}>
-            Hi there! I'm your AI-driven shopping buddy, ready to assist with all your shopping needs.
+            {INTRO_HEADING}
           </Typography>
           <Box mt={4}> {/* Adding spacing */}
             <Typography variant="h5" component="div">
               <ul>
-                <li><Typography variant="h5">Browse the hottest deals and discounted products across hundreds of stores.</Typography></li>
-                <li><Typography variant="h5">Find the perfect product for your needs.</Typography></li>
-                <li><Typography variant="h5">Get expert and user recommendations to guide your decision.</Typography></li>
+                {INTRO_BULLET_POINTS.map((item, index) => (
+                  <li key={index}>
+                    <Typography variant="h5" dangerouslySetInnerHTML={{ __html: item }} />
+                  </li>
+                ))}
               </ul>
             </Typography>
           </Box>
