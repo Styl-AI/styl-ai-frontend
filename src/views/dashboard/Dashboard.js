@@ -10,7 +10,6 @@ import {
   Chip,
   Typography,
 } from '@mui/material';
-import { Scrollbars } from 'react-custom-scrollbars';
 import PageContainer from 'src/components/container/PageContainer';
 // import ChatIcon from '@mui/icons-material/Chat';
 import SendIcon from '@mui/icons-material/Send';
@@ -56,7 +55,7 @@ const Dashboard = () => {
           toast.error(convResp?.msg)
         }
       }
-      if(conversationId == ""){
+      if(conversationId === ""){
         setChatMessages([])
       }
       setSkeltonLoading(false)
@@ -74,7 +73,7 @@ const Dashboard = () => {
     try {
       if (message.trim() !== '') {
 
-        if(chatMessages?.length  ==0){
+        if(chatMessages?.length  === 0){
           resetIterSteps()
         }
         setDisplayMessage(message);
@@ -83,7 +82,6 @@ const Dashboard = () => {
         let aiResponse = false;
         const iterStep = returnIterationCount();
         if (iterStep >= 2) {
-          // const resultantArr = getUserTexts(chatMessages);
           aiResponse = await PromptApi.productList({ prompt: message,conversationId,userId });
           resetIterSteps();
         } else {
@@ -114,10 +112,6 @@ const Dashboard = () => {
       setSkeltonLoading(false);
     }
   };
-
-  function getUserTexts(data) {
-    return data.filter((item) => item.isUser).map((item) => item);
-  }
 
   const resetIterSteps = () => {
     try {
