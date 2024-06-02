@@ -40,7 +40,7 @@ const Register2 = () => (
             <AuthRegister
               subtitle={
                 <Stack direction="row" justifyContent="center" spacing={1} mt={3}>
-                  <Typography color="textSecondary" variant="h6" fontWeight="400">
+                  <Typography color="textSecondary"  fontWeight="400">
                     Already have an Account?
                   </Typography>
                   <Typography 

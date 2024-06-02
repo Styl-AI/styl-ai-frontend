@@ -422,7 +422,11 @@ const Dashboard = () => {
             
           )}
         </Box>
-        <Box p={2} sx={{ position: 'sticky', bottom: 0, backgroundColor: 'white' }}>
+        <Box p={2} sx={{ position: 'sticky', bottom: 0, backgroundColor: 'white',borderRadius:"2rem" ,
+           '& .MuiOutlinedInput-root': {
+            borderRadius: '2rem', 
+          },
+         }}>
           <TextField
             placeholder="Ask me anything..."
             fullWidth
@@ -443,7 +447,7 @@ const Dashboard = () => {
                 </InputAdornment>
               ),
             }}
-            sx={{ border: '2px solid #64c7ff' }}
+            sx={{ border: '2px solid #64c7ff', borderRadius:"2rem" }}
             disabled={loading}
             id="messageInput"
           />

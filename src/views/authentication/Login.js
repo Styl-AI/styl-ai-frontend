@@ -44,7 +44,7 @@ const Login2 = () => {
               <AuthLogin
                 subtitle={
                   <Stack direction="row" spacing={1} justifyContent="center" mt={3}>
-                    <Typography color="textSecondary" variant="h6" fontWeight="500">
+                    <Typography color="textSecondary" fontWeight="500">
                       New to Styl-AI?
                     </Typography>
                     <Typography

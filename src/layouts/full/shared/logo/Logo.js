@@ -11,7 +11,7 @@ const LinkStyled = styled(Link)(() => ({
 const Logo = () => {
   return (
     <LinkStyled to="/" sx={{ textDecoration : "none", fontWeight:"bold"}}>
-       <Typography variant='h1' sx={{textAlign:"center"}} >Styl-AI</Typography>
+       <Typography variant='h3' sx={{textAlign:"center", fontWeight:"bold",color:"#006769"}} >Styl-AI</Typography>
     </LinkStyled>
   )
 };
