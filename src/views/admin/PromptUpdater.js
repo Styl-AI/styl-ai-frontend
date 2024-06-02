@@ -119,7 +119,7 @@ const PromptUpdater = () => {
           <Grid item xs={12} sm={12} lg={6} xl={6}>
             <Card elevation={9} sx={{ p: 4, zIndex: 1, width: '100%', maxWidth: '900px', height: 'auto' }}>
               <Box display="flex" alignItems="center" justifyContent="center" mb={4}>
-                <Typography variant='h3' sx={{textAlign:"center", color:"#5D87FF"}} >Update Prompts</Typography>
+                <Typography variant='h3' sx={{textAlign:"center", color:"#40A578"}} >Update Prompts</Typography>
               </Box>
               <Grid container spacing={2}>
                 <Grid item xs={12}>

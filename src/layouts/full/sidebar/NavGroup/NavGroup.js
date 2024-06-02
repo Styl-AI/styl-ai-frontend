@@ -66,11 +66,11 @@ const NavGroup = ({ item, childrenItems }) => {
           {childrenItems?.length > 0 &&
             childrenItems.map((item, index) => (
               <ListItem disablePadding key={index} sx={haveSameConvId(item?.["_id"]) ?{
-                background: "#5D87FF",
+                background: "#40A578",
                 borderRadius: "6px",
                 marginBottom:"5px",
                 '&:hover':{
-                   background:"#7598FF"
+                   background:"#9DDE8B"
                 }
               }:{
                 background: "#fafafa",
@@ -81,11 +81,11 @@ const NavGroup = ({ item, childrenItems }) => {
                 }
               }}>
                 <ListItemButton sx={haveSameConvId(item?.["_id"]) ?{
-                background: "#5D87FF",
+                background: "#40A578",
                 borderRadius: "6px",
                 marginBottom:"5px",
                 '&:hover':{
-                   background:"#7598FF"
+                   background:"#9DDE8B"
                 }
               }:{
                 background: "#fafafa",
@@ -96,7 +96,7 @@ const NavGroup = ({ item, childrenItems }) => {
                 }
               }} onClick={() => updateScheduleId(item?.["_id"])}>
                   <ListItemIcon>
-                    <SmsIcon sx={haveSameConvId(item?.["_id"]) ? { color:"white", minWidth:0, marginRight:1}:{color:'#5D87FF',minWidth:0, marginRight:1}} />
+                    <SmsIcon sx={haveSameConvId(item?.["_id"]) ? { color:"white", minWidth:0, marginRight:1}:{color:'#40A578',minWidth:0, marginRight:1}} />
                   </ListItemIcon>
                   <ListItemText 
                   primary={item.title} 
@@ -130,11 +130,11 @@ const NavGroup = ({ item, childrenItems }) => {
           {ADMINITEMS?.length > 0 &&
             ADMINITEMS.map((item, index) => (
               <ListItem disablePadding key={index} sx={checkActiveAdminTab(item?.["path"]) ?{
-                background: "#5D87FF",
+                background: "#40A578",
                 borderRadius: "6px",
                 marginBottom:"5px",
                 '&:hover':{
-                   background:"#7598FF"
+                   background:"#9DDE8B"
                 }
               }:{
                 background: "#fafafa",
@@ -145,11 +145,11 @@ const NavGroup = ({ item, childrenItems }) => {
                 }
               }}>
                 <ListItemButton sx={checkActiveAdminTab(item?.["path"]) ?{
-                background: "#5D87FF",
+                background: "#40A578",
                 borderRadius: "6px",
                 marginBottom:"5px",
                 '&:hover':{
-                   background:"#7598FF"
+                   background:"#9DDE8B"
                 }
               }:{
                 background: "#fafafa",

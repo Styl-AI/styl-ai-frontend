@@ -4,19 +4,19 @@ const baselightTheme = createTheme({
   direction: 'ltr',
   palette: {
     primary: {
-      main: '#5D87FF',
-      light: '#ECF2FF',
-      dark: '#4570EA',
+      main: '#40A578',
+      light: '#E6FF94',
+      dark: '#006769',
     },
     secondary: {
-      main: '#49BEFF',
-      light: '#E8F7FF',
-      dark: '#23afdb',
+      main: '#40A578',
+      light: '#E6FF94',
+      dark: '#40A578',
     },
     success: {
       main: '#13DEB9',
-      light: '#E6FFFA',
-      dark: '#02b3a9',
+      light: '#9DDE8B',
+      dark: '#40A578',
       contrastText: '#ffffff',
     },
     info: {
@@ -24,6 +24,7 @@ const baselightTheme = createTheme({
       light: '#EBF3FE',
       dark: '#1682d4',
       contrastText: '#ffffff',
+      customBlue: '#136DFA', // Added this line
     },
     error: {
       main: '#FA896B',
@@ -33,27 +34,27 @@ const baselightTheme = createTheme({
     },
     warning: {
       main: '#FFAE1F',
-      light: '#FEF5E5',
+      light: '#E6FF94',
       dark: '#ae8e59',
       contrastText: '#ffffff',
     },
     purple: {
-      A50: '#EBF3FE',
-      A100: '#6610f2',
-      A200: '#557fb9',
+      A50: '#E6FF94',
+      A100: '#9DDE8B',
+      A200: '#40A578',
     },
     grey: {
-      100: '#F2F6FA',
-      200: '#EAEFF4',
-      300: '#DFE5EF',
-      400: '#7C8FAC',
-      500: '#5A6A85',
-      600: '#2A3547',
+      100: '#E6FF94',
+      200: '#9DDE8B',
+      300: '#9DDE8B',
+      400: '#40A578',
+      500: '#006769',
+      600: '#006769',
 
     },
     text: {
-      primary: '#2A3547',
-      secondary: '#5A6A85',
+      primary: '#006769',
+      secondary: '#006769',
     },
     action: {
       disabledBackground: 'rgba(73,82,88,0.12)',

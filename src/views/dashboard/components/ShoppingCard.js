@@ -180,7 +180,7 @@ const ShoppingCard = ({ productList,setLoading,setChatMessages,setSkeltonLoading
                   <Typography
                   sx={{ 
                     '&:hover': {
-                        color: '#5d87ff', // Applying box shadow on hover
+                        color: '#40A578', // Applying box shadow on hover
                       },
                   }}
                    gutterBottom variant="h5" component="div" onClick={()=>navigateToNextPage(product)}>

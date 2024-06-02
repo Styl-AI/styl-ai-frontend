@@ -162,10 +162,10 @@ const UserTable = () => {
                     <Chip label={"View"} color="primary" />
                   </TableCell>
                   <TableCell onClick={() => chatHistory(user)}>
-                    <Chip label={"View"} sx={{ background: "#64C7FF", color: 'white' }} />
+                    <Chip label={"View"} sx={{ background: "#9DDE8B", color: 'white' }} />
                   </TableCell>
                   <TableCell onClick={() => linksClicked(user)}>
-                    <Chip label={"View"} sx={{ background: "#0D6EFD", color: 'white' }} />
+                    <Chip label={"View"} sx={{ background: "#006769", color: 'white' }} />
                   </TableCell>
                 </TableRow>
               ))}
