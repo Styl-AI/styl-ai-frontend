@@ -130,7 +130,7 @@ const handleAccordionChange = (panel) => (event, isExpanded) => {
                   onClick={() => extractConversation(item)}
                   style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
                 >
-                  <Typography variant='h6' style={{ color: '#7598FF', marginRight: '8px' }}>
+                  <Typography variant='h6' style={{ color: '#9DDE8B', marginRight: '8px' }}>
                     {formatDate(item?.createdAt)}
                   </Typography>
                   <Typography  variant='h6' >{item.title}</Typography>
@@ -173,7 +173,7 @@ const ChatLinksList = ({ chatMessages }) => {
                     <Chip
                       label={`${row?.clickCount ?? 0}`}
                       sx={{
-                        background: '#64C7FF',
+                        background: '#9DDE8B',
                         color: 'white',
                         height: '28px',
                         fontWeight: '800',

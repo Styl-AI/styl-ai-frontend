@@ -194,7 +194,7 @@ const Dashboard = () => {
                         />
                         <Box
                           sx={{
-                            backgroundColor: '#7598ff',
+                            backgroundColor: '#9DDE8B',
                             borderRadius: '0.7rem 0.7rem 0.7rem 1px',
                             padding: '1rem',
                             width: '94%',
@@ -252,7 +252,7 @@ const Dashboard = () => {
                                     sx={{
                                       padding: '1rem',
                                       fontWeight: 700,
-                                      border: '2px solid #64C7FF',
+                                      border: '2px solid #9DDE8B',
                                       background: 'white',
                                       fontSize: '1rem',
                                       margin: '7px',
@@ -279,7 +279,7 @@ const Dashboard = () => {
                                     variant="outlined"
                                     sx={{
                                       fontWeight: 700,
-                                      border: '2px solid #64C7FF',
+                                      border: '2px solid #9DDE8B',
                                       background: 'white',
                                       fontSize: '1rem',
                                       margin: '7px',
@@ -325,7 +325,7 @@ const Dashboard = () => {
 
                     <Box
                       sx={{
-                        backgroundColor: '#7598ff',
+                        backgroundColor: '#9DDE8B',
                         borderRadius: '0.7rem 0.7rem 0.7rem 1px',
                         padding: '1rem',
                         width: '100%',
@@ -377,7 +377,7 @@ const Dashboard = () => {
 
                   <Box
                     sx={{
-                      backgroundColor: '#7598ff',
+                      backgroundColor: '#9DDE8B',
                       borderRadius: '0.7rem 0.7rem 0.7rem 1px',
                       padding: '1rem',
                       width: '100%',
@@ -447,7 +447,7 @@ const Dashboard = () => {
                 </InputAdornment>
               ),
             }}
-            sx={{ border: '2px solid #64c7ff', borderRadius:"2rem" }}
+            sx={{ border: '2px solid #9DDE8B', borderRadius:"2rem" }}
             disabled={loading}
             id="messageInput"
           />

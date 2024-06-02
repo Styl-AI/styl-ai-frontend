@@ -103,7 +103,7 @@ export default function ShowChatHistory({showChatHistory, setShowChatHistory, co
                   onClick={() => extractConversation(item)}
                   style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
                 >
-                  <Typography variant='h6' style={{ color: '#7598FF', marginRight: '8px' }}>
+                  <Typography variant='h6' style={{ color: '#9DDE8B', marginRight: '8px' }}>
                     {formatDate(item?.createdAt)}
                   </Typography>
                   <Typography  variant='h6' >{item.title}</Typography>
@@ -150,7 +150,7 @@ const DummyTable = ({ chatMessages }) => {
                   />
                   <Box
                     sx={{
-                      backgroundColor: '#7598ff',
+                      backgroundColor: '#9DDE8B',
                       borderRadius: '0.7rem 0.7rem 0.7rem 1px',
                       padding: '0.5rem',
                       width: '90%',
