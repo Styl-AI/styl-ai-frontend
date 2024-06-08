@@ -188,7 +188,7 @@ const Dashboard = () => {
                         />
                         <Box
                           sx={{
-                            backgroundColor: '#9DDE8B',
+                            backgroundColor: '#47A578',
                             borderRadius: '0.7rem 0.7rem 0.7rem 1px',
                             padding: '1rem',
                             width: '94%',
@@ -319,7 +319,7 @@ const Dashboard = () => {
 
                     <Box
                       sx={{
-                        backgroundColor: '#9DDE8B',
+                      backgroundColor: '#47A578',
                         borderRadius: '0.7rem 0.7rem 0.7rem 1px',
                         padding: '1rem',
                         width: '100%',
@@ -371,7 +371,7 @@ const Dashboard = () => {
 
                   <Box
                     sx={{
-                      backgroundColor: '#9DDE8B',
+                    backgroundColor: '#47A578',
                       borderRadius: '0.7rem 0.7rem 0.7rem 1px',
                       padding: '1rem',
                       width: '100%',
