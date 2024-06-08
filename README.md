@@ -1,11 +1,11 @@
 
 # Styl AI Frontend
 
-Welcome to the Styl AI Frontend repository! This project is part of the Styl AI suite, a sophisticated platform for AI-driven style transfer and image enhancement.
+Styl-AI Frontend is a cutting-edge project merging skincare and fashion expertise with the capabilities of AI-driven chatbots. This interactive platform serves as a personalized advisor, offering tailored recommendations and guidance in skincare routines and fashion choices
 
 ## Overview
 
-The Styl AI Frontend is the user-facing component of the Styl AI project. It provides an intuitive interface for users to interact with the backend services that perform style transfer on images. This frontend application is built with modern web technologies to ensure a seamless and responsive user experience.
+The Styl AI Frontend is the user-facing component of the Styl AI project. It provides an intuitive interface for users to interact with the backend services that answer's user's queries regarding skincare and fashion. This frontend application is built with modern web technologies to ensure a seamless and responsive user experience.
 
 ## DEMO
 https://www.awesomescreenshot.com/video/28453006?key=1cd774411dcbecae0ac17f9555e2ee1a
@@ -15,8 +15,7 @@ https://www.awesomescreenshot.com/video/28453006?key=1cd774411dcbecae0ac17f9555e
 
 - **User Authentication:** Secure user login and registration functionality.
 - **Style Selection:** Browse and select from various predefined artistic styles.
-- **Real-Time Processing:** View style transfer progress in real-time.
-- **Result Preview:** Immediate preview of the styled images.
+- **Result Preview:** Immediate preview of the styled products and AI response.
 - **History:** Access a history of processed images for easy comparison and download.
 
 ## Technologies Used
